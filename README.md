@@ -4,7 +4,7 @@ O T4 da disciplina de Compiladores da UFSCar(ENPE 2021/1) consistia em criar uma
 
 O tabalho foi feito utilizando JAVA e ANTLR4.
 
-Video de apresentação::
+Video de apresentação: https://github.com/MaxMFonseca/Compiladores-T4/blob/main/Video%20explicativo.mp4
 
 ### Pré-requisitos
 ```
