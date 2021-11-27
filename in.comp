@@ -1,0 +1,28 @@
+COMPONENT Controller
+	time_in : uint
+
+	controller_type : string
+	cur_state : string
+	
+	overwrites : bool
+	active : bool
+
+	lua_info : table
+
+	player_user_id : uint 
+END
+
+EADD Controller (controller)
+	lua_get(controller_type, controller)
+	lua_get(cur_state , base_controller_state)
+	comp.active = true
+	comp.player_ugjhser_id = 0
+	lua_get(overwrites, controller_overwrites)
+	comp.info = spawn_info
+	
+	try_add(sight)
+END
+
+CORE
+	try_add(Controller)
+END
