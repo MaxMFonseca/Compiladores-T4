@@ -44,6 +44,8 @@ CORE
 END
 ```
 
+Exemplo: in.comp -> out.cpp
+
 YETODO!
 
 ---
